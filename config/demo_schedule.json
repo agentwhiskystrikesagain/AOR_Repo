@@ -1,0 +1,24 @@
+{
+  "source_label": "Synthetic classroom schedule; all times are minutes after midnight Asia/Kolkata",
+  "flights": [
+    {"flight_id":"F101","origin":"DEL","destination":"BLR","scheduled_departure_min":480,"scheduled_arrival_min":630,"duration_min":150,"aircraft_slot":1},
+    {"flight_id":"F102","origin":"BLR","destination":"BOM","scheduled_departure_min":675,"scheduled_arrival_min":780,"duration_min":105,"aircraft_slot":1},
+    {"flight_id":"F201","origin":"DEL","destination":"BOM","scheduled_departure_min":510,"scheduled_arrival_min":645,"duration_min":135,"aircraft_slot":2},
+    {"flight_id":"F202","origin":"BOM","destination":"HYD","scheduled_departure_min":690,"scheduled_arrival_min":780,"duration_min":90,"aircraft_slot":2},
+    {"flight_id":"F301","origin":"DEL","destination":"HYD","scheduled_departure_min":540,"scheduled_arrival_min":680,"duration_min":140,"aircraft_slot":3},
+    {"flight_id":"F302","origin":"HYD","destination":"MAA","scheduled_departure_min":720,"scheduled_arrival_min":810,"duration_min":90,"aircraft_slot":3},
+    {"flight_id":"F401","origin":"DEL","destination":"MAA","scheduled_departure_min":570,"scheduled_arrival_min":725,"duration_min":155,"aircraft_slot":4},
+    {"flight_id":"F402","origin":"MAA","destination":"BLR","scheduled_departure_min":770,"scheduled_arrival_min":855,"duration_min":85,"aircraft_slot":4},
+    {"flight_id":"F501","origin":"BOM","destination":"BLR","scheduled_departure_min":540,"scheduled_arrival_min":630,"duration_min":90,"aircraft_slot":5},
+    {"flight_id":"F502","origin":"BLR","destination":"DEL","scheduled_departure_min":675,"scheduled_arrival_min":825,"duration_min":150,"aircraft_slot":5}
+  ],
+  "passenger_groups": [
+    {"group_id":"PG-01","count":18,"origin":"DEL","destination":"BOM","itinerary":["F101","F102"],"scheduled_final_arrival_min":780,"connections":[{"airport":"BLR","min_connection_min":40,"onward_flight":"F102"}],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":4200},
+    {"group_id":"PG-02","count":12,"origin":"DEL","destination":"BOM","itinerary":["F201"],"scheduled_final_arrival_min":645,"connections":[],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":4800},
+    {"group_id":"PG-03","count":10,"origin":"DEL","destination":"MAA","itinerary":["F301","F302"],"scheduled_final_arrival_min":810,"connections":[{"airport":"HYD","min_connection_min":40,"onward_flight":"F302"}],"single_ticket":true,"priority":"Assistance requested","splittable":false,"refund_allowed":true,"fare_plus_fuel_inr":5100},
+    {"group_id":"PG-04","count":8,"origin":"DEL","destination":"MAA","itinerary":["F401"],"scheduled_final_arrival_min":725,"connections":[],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":5000},
+    {"group_id":"PG-05","count":14,"origin":"BOM","destination":"DEL","itinerary":["F501","F502"],"scheduled_final_arrival_min":825,"connections":[{"airport":"BLR","min_connection_min":40,"onward_flight":"F502"}],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":3900},
+    {"group_id":"PG-06","count":5,"origin":"DEL","destination":"BLR","itinerary":["F101"],"scheduled_final_arrival_min":630,"connections":[],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":3200},
+    {"group_id":"PG-07","count":6,"origin":"BLR","destination":"BOM","itinerary":["F102"],"scheduled_final_arrival_min":780,"connections":[],"single_ticket":true,"priority":"Standard","splittable":true,"refund_allowed":true,"fare_plus_fuel_inr":2700}
+  ]
+}

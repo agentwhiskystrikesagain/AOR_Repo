@@ -1,0 +1,788 @@
+﻿{
+    "currency":  "INR",
+    "profiles":  [
+                     {
+                         "profile_id":  "demo1",
+                         "display_name":  "AeroMira Airways",
+                         "schedule":  {
+                                          "flight_number_prefix":  "AM",
+                                          "departure_offset_min":  0
+                                      },
+                         "brand":  {
+                                       "primary":  "#2457A7",
+                                       "accent":  "#39A8C7",
+                                       "logo_path":  null
+                                   },
+                         "costs":  {
+                                       "delay_per_flight_min_inr":  250,
+                                       "cancellation_inr":  42000,
+                                       "passenger_delay_per_hour_inr":  180,
+                                       "rebooking_per_passenger_inr":  650,
+                                       "refund_per_passenger_inr":  5200,
+                                       "meal_per_passenger_inr":  450,
+                                       "hotel_per_passenger_inr":  2600
+                                   },
+                         "operations":  {
+                                            "minimum_turnaround_min":  40,
+                                            "delay_choices_min":  [
+                                                                      0,
+                                                                      15,
+                                                                      30,
+                                                                      45,
+                                                                      60,
+                                                                      75,
+                                                                      90
+                                                                  ],
+                                            "repositioning_allowed":  false
+                                        },
+                         "fleet":  [
+                                       {
+                                           "aircraft_id":  "AM-NB-01",
+                                           "type":  "Narrowbody",
+                                           "seats":  90,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "AM-NB-02",
+                                           "type":  "Narrowbody",
+                                           "seats":  90,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "AM-NB-03",
+                                           "type":  "Narrowbody",
+                                           "seats":  90,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "AM-NB-04",
+                                           "type":  "Narrowbody",
+                                           "seats":  90,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "AM-NB-05",
+                                           "type":  "Narrowbody",
+                                           "seats":  90,
+                                           "location":  "BOM",
+                                           "available_min":  360
+                                       }
+                                   ]
+                     },
+                     {
+                         "profile_id":  "demo2",
+                         "display_name":  "BlueKite Air",
+                         "schedule":  {
+                                          "flight_number_prefix":  "BK",
+                                          "departure_offset_min":  15
+                                      },
+                         "brand":  {
+                                       "primary":  "#176B5B",
+                                       "accent":  "#70C6A2",
+                                       "logo_path":  null
+                                   },
+                         "costs":  {
+                                       "delay_per_flight_min_inr":  270,
+                                       "cancellation_inr":  44000,
+                                       "passenger_delay_per_hour_inr":  200,
+                                       "rebooking_per_passenger_inr":  700,
+                                       "refund_per_passenger_inr":  5400,
+                                       "meal_per_passenger_inr":  475,
+                                       "hotel_per_passenger_inr":  2750
+                                   },
+                         "operations":  {
+                                            "minimum_turnaround_min":  45,
+                                            "delay_choices_min":  [
+                                                                      0,
+                                                                      15,
+                                                                      30,
+                                                                      45,
+                                                                      60,
+                                                                      75,
+                                                                      90
+                                                                  ],
+                                            "repositioning_allowed":  false
+                                        },
+                         "fleet":  [
+                                       {
+                                           "aircraft_id":  "BK-NB-01",
+                                           "type":  "Narrowbody",
+                                           "seats":  88,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "BK-NB-02",
+                                           "type":  "Narrowbody",
+                                           "seats":  88,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "BK-NB-03",
+                                           "type":  "Narrowbody",
+                                           "seats":  88,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "BK-NB-04",
+                                           "type":  "Narrowbody",
+                                           "seats":  88,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "BK-NB-05",
+                                           "type":  "Narrowbody",
+                                           "seats":  88,
+                                           "location":  "BOM",
+                                           "available_min":  360
+                                       }
+                                   ]
+                     },
+                     {
+                         "profile_id":  "demo3",
+                         "display_name":  "Meridian Wings",
+                         "schedule":  {
+                                          "flight_number_prefix":  "MW",
+                                          "departure_offset_min":  30
+                                      },
+                         "brand":  {
+                                       "primary":  "#9A4D16",
+                                       "accent":  "#E0A855",
+                                       "logo_path":  null
+                                   },
+                         "costs":  {
+                                       "delay_per_flight_min_inr":  290,
+                                       "cancellation_inr":  46000,
+                                       "passenger_delay_per_hour_inr":  210,
+                                       "rebooking_per_passenger_inr":  720,
+                                       "refund_per_passenger_inr":  5600,
+                                       "meal_per_passenger_inr":  500,
+                                       "hotel_per_passenger_inr":  2900
+                                   },
+                         "operations":  {
+                                            "minimum_turnaround_min":  40,
+                                            "delay_choices_min":  [
+                                                                      0,
+                                                                      15,
+                                                                      30,
+                                                                      45,
+                                                                      60,
+                                                                      75,
+                                                                      90
+                                                                  ],
+                                            "repositioning_allowed":  false
+                                        },
+                         "fleet":  [
+                                       {
+                                           "aircraft_id":  "MW-NB-01",
+                                           "type":  "Narrowbody",
+                                           "seats":  92,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "MW-NB-02",
+                                           "type":  "Narrowbody",
+                                           "seats":  92,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "MW-NB-03",
+                                           "type":  "Narrowbody",
+                                           "seats":  92,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "MW-NB-04",
+                                           "type":  "Narrowbody",
+                                           "seats":  92,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "MW-NB-05",
+                                           "type":  "Narrowbody",
+                                           "seats":  92,
+                                           "location":  "BOM",
+                                           "available_min":  360
+                                       }
+                                   ]
+                     },
+                     {
+                         "profile_id":  "demo4",
+                         "display_name":  "Northstar Connect",
+                         "schedule":  {
+                                          "flight_number_prefix":  "NC",
+                                          "departure_offset_min":  45
+                                      },
+                         "brand":  {
+                                       "primary":  "#694B9B",
+                                       "accent":  "#AA98D2",
+                                       "logo_path":  null
+                                   },
+                         "costs":  {
+                                       "delay_per_flight_min_inr":  300,
+                                       "cancellation_inr":  48000,
+                                       "passenger_delay_per_hour_inr":  220,
+                                       "rebooking_per_passenger_inr":  750,
+                                       "refund_per_passenger_inr":  5800,
+                                       "meal_per_passenger_inr":  525,
+                                       "hotel_per_passenger_inr":  3050
+                                   },
+                         "operations":  {
+                                            "minimum_turnaround_min":  45,
+                                            "delay_choices_min":  [
+                                                                      0,
+                                                                      15,
+                                                                      30,
+                                                                      45,
+                                                                      60,
+                                                                      75,
+                                                                      90
+                                                                  ],
+                                            "repositioning_allowed":  false
+                                        },
+                         "fleet":  [
+                                       {
+                                           "aircraft_id":  "NC-NB-01",
+                                           "type":  "Narrowbody",
+                                           "seats":  86,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "NC-NB-02",
+                                           "type":  "Narrowbody",
+                                           "seats":  86,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "NC-NB-03",
+                                           "type":  "Narrowbody",
+                                           "seats":  86,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "NC-NB-04",
+                                           "type":  "Narrowbody",
+                                           "seats":  86,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "NC-NB-05",
+                                           "type":  "Narrowbody",
+                                           "seats":  86,
+                                           "location":  "BOM",
+                                           "available_min":  360
+                                       }
+                                   ]
+                     },
+                     {
+                         "profile_id":  "demo5",
+                         "display_name":  "OrchidJet Airways",
+                         "schedule":  {
+                                          "flight_number_prefix":  "OJ",
+                                          "departure_offset_min":  60
+                                      },
+                         "brand":  {
+                                       "primary":  "#285B76",
+                                       "accent":  "#69A9BE",
+                                       "logo_path":  null
+                                   },
+                         "costs":  {
+                                       "delay_per_flight_min_inr":  320,
+                                       "cancellation_inr":  50000,
+                                       "passenger_delay_per_hour_inr":  230,
+                                       "rebooking_per_passenger_inr":  800,
+                                       "refund_per_passenger_inr":  6000,
+                                       "meal_per_passenger_inr":  550,
+                                       "hotel_per_passenger_inr":  3200
+                                   },
+                         "operations":  {
+                                            "minimum_turnaround_min":  50,
+                                            "delay_choices_min":  [
+                                                                      0,
+                                                                      15,
+                                                                      30,
+                                                                      45,
+                                                                      60,
+                                                                      75,
+                                                                      90
+                                                                  ],
+                                            "repositioning_allowed":  false
+                                        },
+                         "fleet":  [
+                                       {
+                                           "aircraft_id":  "OJ-NB-01",
+                                           "type":  "Narrowbody",
+                                           "seats":  94,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "OJ-NB-02",
+                                           "type":  "Narrowbody",
+                                           "seats":  94,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "OJ-NB-03",
+                                           "type":  "Narrowbody",
+                                           "seats":  94,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "OJ-NB-04",
+                                           "type":  "Narrowbody",
+                                           "seats":  94,
+                                           "location":  "DEL",
+                                           "available_min":  360
+                                       },
+                                       {
+                                           "aircraft_id":  "OJ-NB-05",
+                                           "type":  "Narrowbody",
+                                           "seats":  94,
+                                           "location":  "BOM",
+                                           "available_min":  360
+                                       }
+                                   ]
+                     }
+                 ],
+    "airport_codes":  [
+                          "DEL",
+                          "BLR",
+                          "BOM",
+                          "HYD",
+                          "MAA"
+                      ],
+    "airport_names":  {
+                          "DEL":  "Delhi",
+                          "BLR":  "Bengaluru",
+                          "BOM":  "Mumbai",
+                          "HYD":  "Hyderabad",
+                          "MAA":  "Chennai"
+                      },
+    "profile_routes":  {
+                           "demo1":  [
+                                         [
+                                             "DEL",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "HYD",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "MAA",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "DEL"
+                                         ]
+                                     ],
+                           "demo2":  [
+                                         [
+                                             "DEL",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "HYD",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "MAA",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "DEL"
+                                         ]
+                                     ],
+                           "demo3":  [
+                                         [
+                                             "DEL",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "HYD",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "MAA",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "DEL"
+                                         ]
+                                     ],
+                           "demo4":  [
+                                         [
+                                             "DEL",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "HYD",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "MAA",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "DEL"
+                                         ]
+                                     ],
+                           "demo5":  [
+                                         [
+                                             "DEL",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "BOM"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "HYD"
+                                         ],
+                                         [
+                                             "HYD",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "DEL",
+                                             "MAA"
+                                         ],
+                                         [
+                                             "MAA",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BOM",
+                                             "BLR"
+                                         ],
+                                         [
+                                             "BLR",
+                                             "DEL"
+                                         ]
+                                     ]
+                       },
+    "weather_scenarios":  [
+                              "Summer",
+                              "Monsoon",
+                              "Autumn",
+                              "Winter"
+                          ],
+    "time_bucket_min":  15,
+    "dgca_rules":  {
+                       "source_cancel":  "DGCA CAR Section 3, Series M, Part IV, Issue I (06-Aug-2010), Revision 4 (25-Jan-2023), effective 15-Feb-2023",
+                       "source_refund":  "DGCA CAR Section 3, Series M, Part II, Revision 3 (24-Feb-2026), effective 26-Mar-2026",
+                       "cancellation_notice_days_full_refund":  14,
+                       "cancellation_notice_hours_alternative_or_refund":  24,
+                       "compensation_exception_causes":  [
+                                                             "weather",
+                                                             "air traffic control",
+                                                             "atc",
+                                                             "security",
+                                                             "force majeure"
+                                                         ],
+                       "cancellation_compensation_inr_by_block_time":  [
+                                                                           {
+                                                                               "max_hours":  1,
+                                                                               "amount_inr":  5000
+                                                                           },
+                                                                           {
+                                                                               "max_hours":  2,
+                                                                               "amount_inr":  7500
+                                                                           },
+                                                                           {
+                                                                               "max_hours":  99,
+                                                                               "amount_inr":  10000
+                                                                           }
+                                                                       ],
+                       "delay_facility_threshold_hours_by_block_time":  [
+                                                                            {
+                                                                                "max_block_hours":  2.5,
+                                                                                "delay_hours":  2
+                                                                            },
+                                                                            {
+                                                                                "max_block_hours":  5,
+                                                                                "delay_hours":  3
+                                                                            },
+                                                                            {
+                                                                                "max_block_hours":  99,
+                                                                                "delay_hours":  4
+                                                                            }
+                                                                        ],
+                       "unknown_cause_requires_human_review":  true,
+                       "rules_are_configurable_and_not_legal_advice":  true
+                   },
+    "weather_effects":  {
+                            "Summer":  {
+                                           "DEL":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "BLR":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "BOM":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "HYD":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "MAA":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   }
+                                       },
+                            "Monsoon":  {
+                                            "DEL":  {
+                                                        "arrival_capacity_delta":  0,
+                                                        "departure_capacity_delta":  0,
+                                                        "delay_min":  0
+                                                    },
+                                            "BLR":  {
+                                                        "arrival_capacity_delta":  -1,
+                                                        "departure_capacity_delta":  0,
+                                                        "delay_min":  15
+                                                    },
+                                            "BOM":  {
+                                                        "arrival_capacity_delta":  -1,
+                                                        "departure_capacity_delta":  0,
+                                                        "delay_min":  15
+                                                    },
+                                            "HYD":  {
+                                                        "arrival_capacity_delta":  0,
+                                                        "departure_capacity_delta":  0,
+                                                        "delay_min":  10
+                                                    },
+                                            "MAA":  {
+                                                        "arrival_capacity_delta":  0,
+                                                        "departure_capacity_delta":  0,
+                                                        "delay_min":  10
+                                                    }
+                                        },
+                            "Autumn":  {
+                                           "DEL":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "BLR":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "BOM":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "HYD":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "MAA":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   }
+                                       },
+                            "Winter":  {
+                                           "DEL":  {
+                                                       "arrival_capacity_delta":  -1,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  10
+                                                   },
+                                           "BLR":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  5
+                                                   },
+                                           "BOM":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  5
+                                                   },
+                                           "HYD":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   },
+                                           "MAA":  {
+                                                       "arrival_capacity_delta":  0,
+                                                       "departure_capacity_delta":  0,
+                                                       "delay_min":  0
+                                                   }
+                                       }
+                        },
+    "airport_capacity_per_bucket":  {
+                                        "DEL":  {
+                                                    "arrival":  3,
+                                                    "departure":  3,
+                                                    "combined":  5
+                                                },
+                                        "BLR":  {
+                                                    "arrival":  2,
+                                                    "departure":  3,
+                                                    "combined":  5
+                                                },
+                                        "BOM":  {
+                                                    "arrival":  3,
+                                                    "departure":  3,
+                                                    "combined":  5
+                                                },
+                                        "HYD":  {
+                                                    "arrival":  3,
+                                                    "departure":  3,
+                                                    "combined":  5
+                                                },
+                                        "MAA":  {
+                                                    "arrival":  3,
+                                                    "departure":  3,
+                                                    "combined":  5
+                                                }
+                                    },
+    "restrictions":  {
+                         "curfews":  [
+
+                                     ],
+                         "closures":  [
+
+                                      ],
+                         "gate_capacity_per_15m":  null,
+                         "source":  "Synthetic classroom assumptions; editable"
+                     }
+}
